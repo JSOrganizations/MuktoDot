@@ -17,11 +17,18 @@ Version 1.100 · © 2026 Mobassher Ahmed Sowrov, JS Organization
 
 ## What's included
 
-Latin (with accents), digits, Bangla digits, punctuation, currency signs, math symbols, arrows, and
-decorative symbols such as ☞ ◑ ♥ ♡ ❤ ❥ ✔ ✓ ✗ ✘ ✖ ☑ ✪ ☆ ★ ✰ ⇨ ⇦ ⇧ ⇩ ➤ ✆ ✉ № © ® ™ ✿ ✦ ❀.
+The font family covers over 280+ dot-matrix glyphs across major categories:
 
-Symbols that Android treats as emoji (❤ ✔ ☑ ✉ ☞ © ® ™ ♥ …) also render in dot style when followed by
-the emoji selector `U+FE0F` or the text selector `U+FE0E`.
+- **Latin Alphabet:** Full Basic Latin (`A–Z`, `a–z`), plus Extended accented Latin (`À–ÿ`, `Ā–ū`, `Ś`, `Š`, `æ`, `ß`, etc.).
+- **Digits:**
+  - Standard Digits (`0 1 2 3 4 5 6 7 8 9`)
+  - Bangla Digits (`০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯`)
+- **Currency Signs:** `$`, `৳` (Bangla Taka), `€`, `£`, `¥`, `₹`, `₿` (Bitcoin), `₽`, `₩`, `₺`, `¢`.
+- **Punctuation & Typography:** `! " # % & ' ( ) * , - . / : ; ? @ [ \ ] _ { }`, quotes (`“ ” ‘ ’ « » ❝ ❞`), dashes (`– —`), and special marks (`¡ ¿ § ¶ • ‰ ′ ″ ॥`).
+- **Math & Operators:** `+ - < = > ± × ÷ ≠ ≤ ≥ ≈ ∞ √ ∛ ∜ ∑ ∆ ¬ | ~ ⁄ ⊕ ⊙ ⋅`.
+- **Arrows:** `← ↑ → ↓ ⇦ ⇧ ⇨ ⇩ ➔ ➜ ➤`.
+- **Symbols & Dingbats:** `© ® ™ № ℅ ° ★ ☆ ✪ ✰ ♥ ♡ ❤ ❥ ✔ ✓ ✗ ✘ ✖ ☑ ✉ ✆ ✿ ❀ ✦ ◑ ○ ► ☞ ☜ ॐ`.
+- **Emoji Selector Support:** Built-in variation selector support (`U+FE0E` / `U+FE0F`) ensures symbols (hearts, checkmarks, envelopes, stars) render in dot-matrix style on Android without falling back to system color emoji.
 
 ## Usage in Android (Kotlin / Jetpack Compose)
 
@@ -33,7 +40,10 @@ val MuktoDot = FontFamily(
     Font(R.font.mukto_dot_bold, FontWeight.Bold)
 )
 
-Text("♥ ✔ ✉ ☞ © ™", fontFamily = MuktoDot)
+Text(
+    text = "Mukto Dot: 0123456789 | ১২৩৪৫৬৭৮৯০",
+    fontFamily = MuktoDot
+)
 ```
 
 ## License
