@@ -1,0 +1,21 @@
+Mukto Dot Font Family
+Copyright (c) 2026 Mobassher Ahmed Sowrov, JS Organization.
+
+Licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives
+4.0 International License (CC BY-NC-ND 4.0).
+https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+
+Summary:
+  - Attribution: credit "Mobassher Ahmed Sowrov / JS Organization".
+  - NonCommercial: the font may not be sold or redistributed for profit.
+  - NoDerivatives: the font may not be altered, transformed or built upon.
+
+Special Commercial Exception by JS Organization:
+Any software developer or app owner is officially permitted to embed and
+bundle the unmodified "Mukto Dot" font within their own applications
+(including commercial/monetized apps) free of charge, provided that
+appropriate credit is given to Mobassher Ahmed Sowrov / JS Organization,
+and the font file itself is not sold standalone.
+
+Example credit line:
+  Font "Mukto Dot" by Mobassher Ahmed Sowrov / JS Organization, CC BY-NC-ND 4.0.
